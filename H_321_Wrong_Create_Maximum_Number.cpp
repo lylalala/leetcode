@@ -1,3 +1,4 @@
+//真是够够的，写了半天发现错了，fuck，错误代码也传上来
 class Solution {
 public:
     vector<int> maxNumber(vector<int>& nums1, vector<int>& nums2, int k) {
