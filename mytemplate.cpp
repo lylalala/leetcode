@@ -20,7 +20,13 @@ const int MOD = 1e9 + 7;
 void getmax(int &a, int b) {a = max(a, b); }
 void getmin(int &a, int b) {a = min(a, b); }
 void add(LL &x, LL y) { x += y; x %= MOD; }
-
+int str2int(string str){
+    int res=0;
+    for(int i=0;i<str.length();i++){
+        res=res*10+(str[i]-'0');
+    }
+    return res;
+}
 int main()
 {
     int Q;
