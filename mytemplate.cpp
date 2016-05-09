@@ -21,13 +21,13 @@ struct TreeNode {
     TreeNode *right;
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
-int str2int(string str){
+long str2int(string str){
     bool flag=false;
     if(str[0]=='-'){
         flag=true;
         str=str.substr(1,str.length()-1);
     }
-    int res=0;
+    long res=0;
     for(int i=0;i<str.length();i++){
         res=res*10+(str[i]-'0');
     }
@@ -36,7 +36,7 @@ int str2int(string str){
     return res;
 }
 
-string int2str(int num){
+string int2str(long num){
     if(num==0)
         return "0";
     if(num<0)
