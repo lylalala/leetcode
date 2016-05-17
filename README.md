@@ -8,6 +8,7 @@ the solution of leetcode
 72. Why the soulution of O(m) space is faster so much than the soulutin of O(mn) space
 79
 
+146 list/LRU
 
 # hihocoder
 1015 KMP算法
