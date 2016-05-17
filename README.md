@@ -7,3 +7,8 @@ the solution of leetcode
 57
 72. Why the soulution of O(m) space is faster so much than the soulutin of O(mn) space
 79
+
+
+# hihocoder
+1015 KMP算法
+1032 最长回文子串
