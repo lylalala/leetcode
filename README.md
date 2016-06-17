@@ -11,6 +11,7 @@ the solution of leetcode
 146 list/LRU
 214 KMP/最长回文
 227 stack计算
+164. Maximum Gap : 抽屉原理
 
 # hihocoder
 1015 KMP算法
